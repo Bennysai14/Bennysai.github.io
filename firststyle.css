@@ -1,0 +1,134 @@
+body{
+    background-image:radial-gradient(rgb(246, 0, 0),rgb(18, 245, 116));
+}
+    h1~p {
+    color: rgba(245, 14, 14, 0.982);
+    border:3px hsl(343, 92%, 19%) solid;
+    border-radius: 10px;
+    text-align: center;
+    outline: thick ridge pink;
+    outline-offset: 7px;
+    margin: 10px;
+    margin-bottom: 30px;
+    background-image:radial-gradient(rgb(17, 236, 240),rgb(93, 232, 24));
+}
+.div{
+   width: 45%;
+   height: 38%;
+}
+ h2{
+    text-align: justify;
+ }
+ h2+p{
+    text-align: justify;
+ }
+ .red{
+    border: 3px solid rgb(122, 234, 91);
+    padding: 5px 20px;
+    width: 50%;
+    height: 30%;
+ }
+ .red{
+    position: relative;
+  text-align-last: right;
+  text-align: justify;
+ }
+ .grean{
+    margin: 10px;
+    direction: rtl;
+ }
+ .vertical{
+    vertical-align: super;
+    text-decoration: overline underline double 3px;
+ }
+ .transform{
+    text-transform: uppercase lowercase capitalize;
+    word-spacing: 13px;
+    text-indent: 350px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+ }
+ .shadow{
+    height:250px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-shadow: 1px 8px 5px blue;
+    padding-bottom: 0px;
+ }
+ table{
+   border: 2px solid greenyellow;
+   margin-top: 0px;
+   padding-top: 0px;
+   border-top: 0px;
+   margin-bottom: 30px;
+ }
+ 
+ td{
+   background: radial-gradient(rgb(12, 52, 22),green);
+   color: chartreuse;
+ }
+ th{
+   width: 120px;
+   height: 70PX;
+   text-align: justify;
+   background-color: rgb(2, 49, 34) ;
+   color: azure;
+   
+ }
+ /*-------------------------
+ tr:nth-child(even) {
+   background-color: gray  ;
+ }          --------------------------*/
+
+ .red{
+   width: 600px;
+   height: 450px;
+   border: 3px solid lightgrey;
+ }
+ .green{
+   width: 200px;
+   height:180px;
+   border: 3px solid lightgrey;
+   position: absolute;
+   left: 800px;
+   bottom: 600px;
+ }
+ .container{
+   width: 400px;
+   height: 300px;
+   border: 3px solid goldenrod;
+   margin-top: 30px  ;
+   position: relative;
+   left: 800px;
+   bottom: 450px;
+ }
+ .ind1{
+   width: 300px;
+   height: 230px;
+   border: 3px solid goldenrod;
+   position: relative;
+   z-index: 2;
+   left: 180px;
+  top: 200px;
+ }
+ .ind2{
+   width: 300px;
+   height: 120px;
+   border: 3px solid goldenrod;
+   position: relative;
+   z-index: index 1;
+   left: 100px;
+   bottom: 200px;
+ }
+ .ind3{
+   width: 300px;
+   height: 120px;
+   border: 3px solid goldenrod;
+   position: relative;
+   z-index: 3;
+   left: 100px;
+   bottom: 200px;
+ }
+
+
